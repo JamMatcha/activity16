@@ -43,7 +43,7 @@ pokemonTrainer.talk();
 
 */
 let targetHealth;
-function newPokemon(name, level){
+function Pokemon(name, level){
     this.name = name;
     this.level= level;
     this.health = level*2;// - Health (Create an equation that uses the level property)
@@ -71,9 +71,9 @@ function newPokemon(name, level){
 }
 
 //9. Create/instantiate several pokemon object from the constructor with varying name and level properties. 
-let pikachu = new newPokemon("Pikachu", 12);
-let geodude = new newPokemon("Geodude", 8);
-let mewtwo = new newPokemon ("Mewtwo", 100);
+let pikachu = new Pokemon("Pikachu", 12);
+let geodude = new Pokemon("Geodude", 8);
+let mewtwo = new Pokemon ("Mewtwo", 100);
 
 console.log(pikachu);
 console.log(geodude);
