@@ -79,6 +79,7 @@ console.log(pikachu);
 console.log(geodude);
 console.log(mewtwo);
 
+//13. Invoke the tackle method of one pokemon object to see if it works as intended. 
 geodude.tackle(pikachu);
 pikachu.health = targetHealth;
 console.log(pikachu);
@@ -86,16 +87,3 @@ console.log(pikachu);
 mewtwo.tackle(geodude);
 geodude.health = targetHealth;
 console.log(geodude);
-/*
-
-
- 
- 
- 
-
- 
-
- 13. Invoke the tackle method of one pokemon object to see if it works as intended. 
-
-
-*/
